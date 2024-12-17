@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Number Input Lab</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>Number Input Lab</h1>
+    <div class="container">
+        <!-- Column 1: Find Smallest Number -->
+        <div class="column">
+            <h2>Find Smallest Number</h2>
+            <label for="num1">Enter first number:</label>
+            <input type="number" id="num1"><br>
+
+            <label for="num2">Enter second number:</label>
+            <input type="number" id="num2"><br>
+
+            <label for="num3">Enter third number:</label>
+            <input type="number" id="num3"><br>
+
+            <button id="findSmallestButton">Find Smallest Number</button>
+            <p id="resultSmallest"></p>
+        </div>
+
+        <!-- Column 2: Check Positive, Negative, or Zero -->
+        <div class="column">
+            <h2>Check Positive, Negative, or Zero</h2>
+            <label for="checkNumber">Enter a number:</label>
+            <input type="number" id="checkNumber"><br>
+
+            <button id="checkNumberButton">Check Number</button>
+            <p id="resultCheck"></p>
+        </div>
+
+        <!-- Column 3: Age of Voting Checker -->
+        <div class="column">
+            <h2>Age of Voting Checker</h2>
+            <label for="ageInput">Enter Age:</label>
+            <input type="number" id="ageInput"><br>
+
+            <button id="checkAgeButton">Check Age</button>
+            <p id="resultAge"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
